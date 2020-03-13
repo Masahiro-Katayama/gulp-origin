@@ -1,0 +1,26 @@
+<!-- include先も含めて使用できる変数も書ける -->
+<%# var title = 'タイトル'; %>
+
+<!-- includeでコンポーネントを使用できる -->
+<%# include /component/_header %>
+
+<!-- 文字列として変数出力 -->
+<%#= print %>
+
+<!-- htmlとして変数出力 -->
+<%#= print %>
+
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.min.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <p class="text" id="text">hello world</p>
+
+    <script src="js/test.js"></script>
+  </body>
+</html>
